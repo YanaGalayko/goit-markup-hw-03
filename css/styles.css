@@ -47,7 +47,7 @@ body {
 }
 
 .container {
-    width: 1258px;
+    width: 1128px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -55,10 +55,12 @@ body {
 }
 
 .header-contanier {
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.header-contanier {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 /* logo */
 
@@ -111,6 +113,8 @@ body {
 .site-nav {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
@@ -137,6 +141,8 @@ body {
     display: flex;
     align-items: center;
     margin-left: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .auth-nav-contanier {
@@ -157,14 +163,21 @@ body {
 /* hero */
 
 .hero {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 
     background-color: var(--hero-bg-color);
     text-align: center;
 }
 
 .hero-title {
+    padding-top: 188px;
+    width: 496px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
     
-
     color: var(--accent-color);
     font-weight: 700;
     font-size: 56px;
@@ -176,42 +189,131 @@ body {
 
 .visually-hidden {
     visibility: hidden;
+    display: none;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    
+}
+
+.section-direction {
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
 
 .section-worker {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
     background-color: var(--button-bg-color);
 }
 
 .section-title {
+    margin-bottom: 72px;
 
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
+    text-align: center;
 }
 
 .section-tatle-next {
+    margin-bottom: 8px;
    
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2; 
+    text-align: center;
 }
 
+.section-title-list {
+    border: 1px solid #E7E9FC;
+}
+
+.section-worker-list {
+    
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.section-work {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 120px;
+    text-align: left;
+}
 
 .featyre-lists {
-    color: var(--primary-text-color)
+    padding-bottom: 32px;
+    text-align: center;
+    color: var(--primary-text-color);
+ }
+
+ .featyre-img {
+    margin-bottom: 32px;
+ }
+
+.featyre-section {
+    display: flex;
+    min-width: 264px;
+    gap: 24px;
+    justify-content: center;
+
 }
 
+.featyre-text-title {
+    text-align: left;
+    color: var(--primary-text-color);
+}
+   
+.featyre {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
 
 .cards {
     text-decoration: none;
 }
 
+.section-cards {
+   
+    border: 1px solid #E7E9FC;
+    padding-top: 32px;
+}
+
+.section-menu {
+    display: flex;
+}
+
+.cards-text {
+    text-align: left;
+    padding-left: 16px;
+}
+
 /* button */
 
 .hero-button {
+    display: inline-block;
+    padding: 14px 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-bottom: 188px;
+    border: #4D5AE5;
+
 
     color: var(--accent-color);
     background-color: var(--title-bg-color);
@@ -229,6 +331,16 @@ body {
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--button-bcg-color);
+}
+
+.button-lists {
+    display: flex;
+    justify-content: center;
+}
+
+.button-menu {
+    margin-left: 24px;
+    margin-top: 96px;
 }
 
 .button-menu {
@@ -254,11 +366,25 @@ body {
 /* footer */
 
 .footer {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 
     background-color: var(--hero-bg-color);
 }
 
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
 .footer-text {
+    margin-top: 17.5px;
+    width: 264px;
+    text-align: left;
+
     color: var(--footer-color);
 }
 
