@@ -228,7 +228,8 @@ body {
 }
 
 .section-worker-list {
-    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
     justify-content: center;
     gap: 24px;
     
@@ -242,10 +243,8 @@ body {
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
-    gap: 24px;
+    grid-gap: 48px 24px;
     justify-content: center;
-    padding-top: 72px;
-    padding-bottom: 120px;
     text-align: left;
 }   
 
@@ -270,11 +269,9 @@ body {
 
  .section-list {
     padding-top: 96px;
+    padding-bottom: 120px;
  }
- .featyre-img {
-    margin-bottom: 32px;
- }
-
+ 
 .featyre-section {
     display: flex;
     gap: 24px;
@@ -331,7 +328,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
-
+    margin-bottom: 72px;
 }
 
 .button-menu {
