@@ -17,7 +17,6 @@
 
 h1, h2, h3, p {
     margin: 0;
-    padding: 0;
 }
 
 ul {
@@ -46,9 +45,8 @@ body {
 }
 
 .container {
-    width: 1128px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 1158px;
+    margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -217,7 +215,7 @@ body {
 
 .section-tatle-next {
     margin-bottom: 8px;
-   
+
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 20px;
@@ -281,14 +279,13 @@ body {
     display: flex;
     gap: 24px;
     justify-content: center;
-
 }
 
 .featyre-text-title {
     text-align: left;
     color: var(--primary-text-color);
 }
-   
+
 .featyre {
     display: flex;
     gap: 24px;
